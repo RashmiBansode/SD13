@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    height:1978px;
+    width:1000px;
+    background-color: rgba(224, 233, 234, 0.96);
+    margin: auto;
+   border-style: double;
+}  
+.main{
+    width: 200px;
+    height:150px;
+    background-color:white;
+    float: left;  
+}
+.main img{
+    height: 150px;  
+    width: 200px;
+}
+
+.social{
+    width:794px;
+    height: 94px;
+    background-color: rgb(199, 202, 195);
+    float: left;
+    border-style: double;   
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 10px;  
+    border-style: outset;
+    margin-top: 25px;
+}
+
+
+.header{
+    width: 794px;
+    height:44px ;
+    background-color: rgba(81, 99, 93, 0.91);
+    float: left;
+    border-style: double;
+    
+}
+.header ul li{
+    float: left;
+    width: 115px;
+    height: 30px;
+    margin-left: 37px;
+    margin-top: 6px; 
+    margin-bottom: 1px;
+    text-align: center;
+    list-style: none;
+    position: relative;
+    background-color: rgb(222, 251, 7);
+    border-radius: 7px;
+    line-height: 25px;
+    /* float: left; */
+     
+}
+
+.header ul li i{
+    color: rgb(12, 12, 147);
+}
+  
+
+.header ul li:hover{
+    background-color: rgb(41, 219, 103);
+    width: 115px;
+    height: 30px;
+    text-align: center;
+   
+}
+
+.header ul li>ul li{ 
+    display: none;
+  
+   margin: 0px;
+  
+}
+
+.header ul li:hover ul li{
+    display: block;
+ 
+ } 
+
+
+
+ .header ul li:hover ul li:hover ul{
+    display: block;
+   
+ } 
+
+
+
+.header ul li>ul li>ul{ 
+    display: none;
+   
+   margin: 1px;
+  
+}
+
+.content{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(218, 165, 112);
+    float: left;
+    background-image: url("imgs/bck.jpeg");
+    background-position: 1000px 600px;
+    
+}
+
+.tab{
+    background-color: rgb(255, 255, 255);
+}
+ 
+#tabl{
+    background-color: rgb(105, 163, 213);
+}
+
+tbody{
+    text-align: center;
+}
+
+caption{
+    background-color: rgb(210, 221, 220);
+    color: rgb(0, 0, 0);
+    border-style: outset;
+    font-weight: bold;
+    word-spacing: 12px;
+}
+.table{
+    background-color: rgba(149, 200, 206, 0.988);
+    width: 450px;
+    font-size: 23px;
+    float: left;
+    margin: 30px;
+    /* margin-top: 200px; */
+}
+.thead{
+    background-color: rgb(27, 98, 145);
+    color: rgb(230, 236, 240);
+}
+/* .content img{
+    height:600px ;
+    width:1000px ;
+} */
+.img {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(21, 21, 21);
+    float:right;
+    margin-top: 130px;
+    margin-right: 20px;
+}
+#con{
+    height:350px ;
+    width:450px; 
+    background-color: rgba(121, 173, 190, 0.96);
+    text-align: center;
+    border-radius: 15%;
+   
+} 
+.footer{
+    width: 1000px;
+    height:290px;
+    background-color: rgba(177, 183, 186, 0.944);
+    margin-bottom: 0px;
+    float: left;
+}
+.footer div{
+    width:285px;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+    border-radius: 50px;
+    margin-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(62, 91, 109);
+}
+
+.info{
+    float: left;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+.info h1{
+    color: black;
+   text-align: center;
+   margin-top: 10px;
+}
+.info p{
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.bott div{
+width: 200px;
+height: 250px;
+background-color: rgb(16, 16, 81);
+margin-left: 40px  ;
+float: left;
+text-align: center;
+color: aliceblue;
+}
+.bott{
+    height: 300px;
+    width: 1000px;
+    float: left;
+    background-color: rgb(16, 16, 81);
+}
+.b1{
+    width:150 px ;
+    height: 100px;
+    background-color: blueviolet;
+}
+.bott h2{
+    padding: 20px;
+}
+.b2 li{
+    list-style: none;
+    color: azure;
+    margin-bottom: 5px;
+}
+.bott div p{
+    font-size: 17px;
+    text-align: left;
+}
+.end{
+    height: 120px;
+    width: 1000px;
+    background-color: rgb(64, 61, 56);
+    float: left;
+    color: aliceblue;
+    text-align: center;
+}
+.end p{
+    padding-top: 25px;
+    
+}
+
+
